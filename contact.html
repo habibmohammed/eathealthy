@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Eat Healthy | Contac Info</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="styles/main-style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+		<link rel="icon" href="img/logo.png" type="image/png" sizes="16x16">
+	</head>
+	<body>
+		<header>
+			<a href="index.html" id="logo"><img src="img/logo.png" title="Logo" alt="Heart shaped logo consisting of the letter E and the letter H"><span>Eat <span>Healthy</span></span></a>
+			<nav>
+				<a href="index.html" class="nav">Home</a>
+				<a href="products.html" class="nav">Products</a>
+				<a href="benefits.html" class="nav">Benefits</a>
+				<a href="contact.html" class="active-nav nav">Contact</a>
+				<a href="about.html" class="nav">About</a>
+				<a href="signin.html" class="nav">Sign In</a>
+			</nav>
+			
+		</header>
+		
+		<section>
+			<br><br>
+			<h1 class="center-text">Get in touch with us</h1>
+			<p>For any question you have contact our customer service 24/7 using:</p>
+			<div class="contact-flex-container">
+				<!-- <div class="contact-flex-item">
+					<h2 class="contact-title h2-title">Live Chat</h2>
+					<p class="contatc-desc">Enter the description below to begin chat</p>
+					<form>
+						<textarea name="description" placeholder="Enter description here..." class="text-input" id="chat-input"></textarea>
+						<br>
+						<button class="btn btn-contact">Chat</button>
+					</form>
+				</div> -->
+				<div class="contact-flex-item">
+					<form action="signin.html" method="post" class="forms contact-form">
+						<input type="text" name="con-fname" id="con-fname" class="text-input" placeholder="First name" required>
+						<input type="text" name="con-lname" id="con-lname" class="text-input" placeholder="Last name" required>
+						<input type="email" name="con-email" id="con-email" class="text-input" placeholder="Email" required>
+						<textarea name="email-body" id="email-body" class="text-input" placeholder="Message"></textarea>
+						<button class="btn btn-contact">Email</button>
+					</form>
+				</div>
+				<div class="contact-flex-item narrow" id="contact">
+					<div class="other-contact-div">
+						<p class="other-contact-title">Phone</p>
+						<a href="tel:+16144325849"><i>+1 614-432-5849</i></a>
+					</div>
+					<div class="other-contact-div">
+						<p class="other-contact-title">Email</p>
+						<a href="mailto:customerservice@eathealhy.com"><i>customerservice@eathealthy.com</i></a>
+					</div>
+					<div class="other-contact-div">
+						<p class="other-contact-title">Address</p>
+						<i id="cont-addr">1024 W Broad St., Columbus, OH 43215</i>
+					</div>
+				</div>
+
+			</div>
+		</section>
+		<footer>
+			<ul class="media-links">
+				<li><a href="https://www.facebook.com" target="_blank"><img src="img/social/fb-img.png" class="media-logo" alt="facebook's logo"></a> </li>
+				<li><a href="https://www.twitter.com" target="_blank"><img src="img/social/twitter-img.png" class="media-logo"  alt="twitter's logo"></a> </li>
+				<li><a href="https://www.gmail.com" target="_blank"><img src="img/social/gmail-img.png" class="media-logo"  alt="gmail's logo"></a> </li>
+			</ul>
+			<p class="copyright center-text">&copy; 2020 Habib Mohammed</p>
+		</footer>
+	</body>
+</html>
